@@ -1,48 +1,62 @@
-# Nuxt Example
+# BESTSELLER Product Showcase
 
-Deploy your [Nuxt](https://nuxt.com) project to Vercel with zero configuration.
+This project is developed as part of an assignment for a Senior Frontend Developer position at BESTSELLER. The application showcases product listings, details, categories, and includes features like search, filtering, and a shopping basket.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/nuxtjs&template=nuxtjs)
+## Table of Contents
 
-_Live Example: https://nuxtjs-template.vercel.app_
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
 
-Look at the [Nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## Overview
 
-## Setup
+This project uses the provided mock JSON data to create a product listing and detail application. The application is built using Nuxt 3.
 
-Make sure to install the dependencies:
+## Features
 
-```bash
-# yarn
-yarn
+1. **Product Listing Page (PLP)**: Displays a list of products with their details.
+2. **Categories Menu**: A navigation menu that lists all categories and their associated product images.
+3. **Product Detail Page (PDP)**: Shows detailed information about a selected product, including variants and images.
+4. **Search and Filtering**: Allows users to search for and filter products and categories.
+5. **Shopping Basket**: Users can add products to a basket.
+6. **Checkout Process**: A simple checkout process with mock shipping and payment options.
 
-# npm
-npm install
+## Installation
 
-# pnpm
-pnpm install --shamefully-hoist
-```
+To run this project locally, follow these steps:
 
-## Development Server
+1. **Clone the repository:**
 
-Start the development server on http://localhost:3000
+   ```bash
+   git clone https://github.com/anders-lassen/bestseller-task.git
+   cd bestseller-task
+   ```
 
-```bash
-npm run dev
-```
+2. **Install dependencies:**
 
-## Production
+   ```bash
+   npm install
+   ```
 
-Build the application for production:
+3. **Run the development server:**
 
-```bash
-npm run build
-```
+   ```bash
+   npm run dev
+   ```
 
-Locally preview production build:
+## Usage
 
-```bash
-npm run preview
-```
+1. Open your browser and navigate to `http://localhost:3000`.
+2. Browse through the product listings and categories.
+3. Use the search bar to find specific products or categories.
+4. Add products to the basket and proceed to checkout.
 
-Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment#presets) for more information.
+## Technologies
+
+- **Vue 3**: The progressive JavaScript framework for building user interfaces.
+- **Nuxt 3**: A framework for creating Vue applications with ease.
+- **Vite**: A next-generation frontend tooling for fast development.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **Vercel**: A hosting service to showcase the assignment.
