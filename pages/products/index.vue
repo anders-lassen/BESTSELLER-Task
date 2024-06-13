@@ -6,9 +6,7 @@ const lang = useState("lang")
 </script>
 <template>
     <div>
-        <div style="padding: var(--spacer-base);">
-            <Categories :category="data.categories" />
-        </div>
+        <Categories :category="data.categories" />
 
         <Products :products="data.products" />
     </div>
