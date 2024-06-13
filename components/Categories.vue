@@ -98,8 +98,7 @@ const CategoryImg = defineComponent(() => {
 
 
 <style>
-
-#app > .level-grp {
+#app>.level-grp {
     margin-left: 42px;
     margin-top: 10px;
 }
@@ -121,19 +120,20 @@ const CategoryImg = defineComponent(() => {
 
 .categoryBtn a:hover {
     text-decoration: underline;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 
 .level-0 {
-    font-size: 2.5rem;
+    font-size: 1.3rem;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .level-1 {
-    font-size: 2rem;
+    font-size: 1.1rem;
+    font-weight: bolder;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
